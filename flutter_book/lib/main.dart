@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_book/route.dart';
 import 'screens/listBookScreen.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: ListBookScreen(title: 'Books List'),
+      onGenerateRoute: (settings) => generateRoute(settings),
     );
   }
 }

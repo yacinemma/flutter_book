@@ -38,7 +38,7 @@ class _ListBookScreenState extends State<ListBookScreen> {
               crossAxisCount: 3,
               mainAxisSpacing: 20.0,
               crossAxisSpacing: 20.0,
-              children: books.map((book) => createTile(book)).toList(),
+              children: books.map((book) => createTile(book, context)).toList(),
             ),
           )
         ],

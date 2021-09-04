@@ -9,22 +9,18 @@ class Book {
 }
 
 final List<Book> books = [
-  Book('CorelDraw untuk Tingkat Pemula Sampai Mahir', 'Jubilee Enterprise',
-      'assets/images/empty.jpg', 3.5, 123),
-  Book('Buku Pintar Drafter Untuk Pemula Hingga Mahir', 'Widada',
-      'assets/images/empty.jpg', 4.5, 200),
-  Book('Adobe InDesign: Seri Panduan Terlengkap', 'Jubilee Enterprise',
-      'assets/images/empty.jpg', 5.0, 324),
-  Book('Pemodelan Objek Dengan 3Ds Max 2014', 'Wahana Komputer',
-      'assets/images/empty.jpg', 3.0, 200),
-  Book('Penerapan Visualisasi 3D Dengan Autodesk Maya', 'Dhani Ariatmanto',
-      'assets/images/empty.jpg', 4.8, 234),
-  Book('Teknik Lancar Menggunakan Adobe Photoshop', 'Jubilee Enterprise',
-      'assets/images/empty.jpg', 4.5, 240),
-  Book('Adobe Premiere Terlengkap dan Termudah', 'Jubilee Enterprise',
-      'assets/images/empty.jpg', 4.8, 432),
-  Book('Cad Series : Google Sketchup Untuk Desain 3D', 'Wahana Komputer',
-      'assets/images/empty.jpg', 4.5, 321),
-  Book('Webmaster Series : Trik Cepat Menguasai CSS', 'Wahana Komputer',
-      'assets/images/empty.jpg', 3.5, 431)
+  Book(
+      'Book cover design', 'Jubilee Enterprise', 'assets/images/1.jpg', 3, 123),
+  Book('Buku Pintar ', 'Widada', 'assets/images/2.jpg', 4, 200),
+  Book('Adobe InDesign', 'Jubilee Enterprise', 'assets/images/3.jpg', 5, 324),
+  Book('Pemodelan Objek', 'Wahana Komputer', 'assets/images/4.jpg', 3, 200),
+  Book('Penerapan Visualisasi', 'Dhani Ariatmanto', 'assets/images/5.jpg', 2,
+      234),
+  Book('Teknik Lancar', 'Jubilee Enterprise', 'assets/images/6.jpg', 1, 240),
+  Book('Adobe Premiere', 'Jubilee Enterprise', 'assets/images/7.jpg', 4, 432),
+  Book('Google Sketchu', 'Wahana Komputer', 'assets/images/8.jpg', 4, 321),
+  Book('Menguasai CSS', 'Wahana Komputer', 'assets/images/9.jpg', 5, 431),
+  Book('Menguasai CSS 2', 'Wahana Komputer', 'assets/images/10.jpg', 2, 431),
+  Book('Menguasai CSS 3', 'Wahana Komputer', 'assets/images/11.jpg', 3, 431),
+  Book('Menguasai CSS 4', 'Wahana Komputer', 'assets/images/12.jpg', 3, 431)
 ];
