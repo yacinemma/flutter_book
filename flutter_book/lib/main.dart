@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ListBookScreen(title: 'List Books'),
+      home: ListBookScreen(title: 'Books List'),
     );
   }
 }
