@@ -11,12 +11,11 @@ class Book {
 final List<Book> books = [
   Book(
       'Book cover design', 'Jubilee Enterprise', 'assets/images/1.jpg', 3, 123),
-  Book('Buku Pintar ', 'Widada', 'assets/images/2.jpg', 4, 200),
+  Book('Nora Barrett', 'Widada', 'assets/images/2.jpg', 4, 200),
   Book('Adobe InDesign', 'Jubilee Enterprise', 'assets/images/3.jpg', 5, 324),
-  Book('Pemodelan Objek', 'Wahana Komputer', 'assets/images/4.jpg', 3, 200),
-  Book('Penerapan Visualisasi', 'Dhani Ariatmanto', 'assets/images/5.jpg', 2,
-      234),
-  Book('Teknik Lancar', 'Jubilee Enterprise', 'assets/images/6.jpg', 1, 240),
+  Book('Memory', 'Wahana Komputer', 'assets/images/4.jpg', 3, 200),
+  Book('Edit this book', 'Dhani Ariatmanto', 'assets/images/5.jpg', 2, 234),
+  Book('Modern spaces', 'Jubilee Enterprise', 'assets/images/6.jpg', 1, 240),
   Book('Adobe Premiere', 'Jubilee Enterprise', 'assets/images/7.jpg', 4, 432),
   Book('Google Sketchu', 'Wahana Komputer', 'assets/images/8.jpg', 4, 321),
   Book('Menguasai CSS', 'Wahana Komputer', 'assets/images/9.jpg', 5, 431),
