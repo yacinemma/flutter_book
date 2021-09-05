@@ -20,24 +20,6 @@ Widget createTile(Book book, context) {
   );
 }
 
-///create text widget
-Widget text(String data,
-    {Color color = Colors.black87,
-    num size = 14,
-    EdgeInsetsGeometry padding = EdgeInsets.zero,
-    bool isBold = false}) {
-  return Padding(
-    padding: padding,
-    child: Text(
-      data,
-      style: TextStyle(
-          color: color,
-          fontSize: size.toDouble(),
-          fontWeight: isBold ? FontWeight.bold : FontWeight.normal),
-    ),
-  );
-}
-
 Widget StarRating(rating) {
   return Row(
     children: <Widget>[
@@ -88,28 +70,35 @@ Widget StarRating(rating) {
   );
 }
 
-Widget SingleBookTile(title, price, image) {
-  return Container(
-    width: 110,
-    padding: EdgeInsets.only(right: 12),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        Image.asset(
-          image,
-          height: 170,
-          fit: BoxFit.fitHeight,
-        ),
-        Text(
-          title,
-          style: TextStyle(
-              color: Colors.black87, fontWeight: FontWeight.w500, fontSize: 14),
-        ),
-        Text(
-          price.toString() + ' DA',
-          style: TextStyle(color: Colors.blue[200], fontSize: 13),
-        )
-      ],
+Widget SingleBookTile(title, price, image, context) {
+  return GestureDetector(
+    onTap: () {
+      Navigator.pushNamed(context, 'detail/${title}');
+    },
+    child: Container(
+      width: 110,
+      padding: EdgeInsets.only(right: 12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Image.asset(
+            image,
+            height: 170,
+            fit: BoxFit.fitHeight,
+          ),
+          Text(
+            title,
+            style: TextStyle(
+                color: Colors.black87,
+                fontWeight: FontWeight.w500,
+                fontSize: 14),
+          ),
+          Text(
+            price.toString() + ' DA',
+            style: TextStyle(color: Colors.blue[200], fontSize: 13),
+          )
+        ],
+      ),
     ),
   );
 }
